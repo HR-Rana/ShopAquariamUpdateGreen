@@ -148,8 +148,7 @@ body {
 }
 
 .navigation .menu {
-
-  padding: 35px 0;
+  padding: 10px 0;
   color: white;
   overflow: hidden;
 }
@@ -157,18 +156,21 @@ body {
 .navigation .menu {}
 
 .navigation .menu ul {
-  width: 55%;
+  width: 57%;
   float: right;
   overflow: hidden;
   justify-content: space-between;
 }
 
-.navigation .menu li {}
+.navigation .menu li {
+  padding: 15px 0;
+}
 
 .navigation .menu li a {
   text-decoration: none;
   color: white;
   letter-spacing: 1px;
+  padding: 5px 0;
 }
 
 .navigation .menu li a:hover {
